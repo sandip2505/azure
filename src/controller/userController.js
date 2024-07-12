@@ -3,6 +3,13 @@
   const User = require('../schema/userSchema');
   
   
+  apicontroller.index = async (req, res) => {
+    try {
+    res.render('index');
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
+  }
   apicontroller.getAllUsers = async (req, res) => {
     try {
       const users = await User.find();

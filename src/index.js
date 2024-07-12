@@ -7,7 +7,11 @@
 
     // Require your routes and use them here
     const userRoute = require('./route/userRoute');
+    app.use('/', (req, res) => {
+      res.send('Welcome to the user management system');
+    });
     app.use('/users', userRoute);
+
 
     app.listen(PORT, () => {
       console.log(`Server is running on http://localhost:${PORT}`);
