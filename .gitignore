@@ -1,0 +1,62 @@
+# Logs
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/*
+.nyc_output
+
+# Caching
+.npm
+.cache
+.eslintcache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Build output
+build/*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variables
+.env
+.env.test
+.env.local
+
+# Parcel bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# Serverless directories
+.serverless/
